@@ -9,35 +9,110 @@
   <link rel="stylesheet" href="/src/public/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link
     href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap"
     rel="stylesheet">
 </head>
 
 <body>
+  <!-- Navbar -->
   <!-- Bagia kiri -->
-  <div class="bg-white py-6">
+  <div class="w-full bg-white py-6 px-8">
     <div class="container mx-auto">
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap justify-between items-center">
         <div class="">
           <h2 class="font-bold text-blue-600 text-2xl uppercase">SM<span class="text-slate-800">KNS</span></h2>
         </div>
         <!-- Bagian kiri end -->
         <!-- Bagian tengah -->
         <div class="">
-          <ul>
-            <li><a href="">Beranda</a></li>
-            <li><a href="">Beranda</a></li>
-            <li><a href="">Beranda</a></li>
-            <li><a href="">Beranda</a></li>
-            <li><a href="">Beranda</a></li>
-            
+          <ul class="flex text-lg space-x-6 font-medium text-slate-800 capitalize">
+            <li>
+              <a href="" class="hover:text-blue-400 text-blue-400">Beranda</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-blue-400">Tentang Kami</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-blue-400">Program</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-blue-400">Guru</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-blue-400">Siswa</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-blue-400">Berita</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-blue-400">Fitur</a>
+            </li>
+
           </ul>
         </div>
         <!-- Bagian tengah end -->
+
+        <!-- Bagian kanan -->
+        <div class="">
+          <a href=""
+            class="bg-slate-600 py-3 px-8 rounded-full font-semibold text-white border-b-2 border-slate-600 hover:bg-transparent hover:text-slate-600 duration-300 transition-all ease-in-out space-x-5">Contact
+            <i class="fa-solid fa-phone"></i></a>
+        </div>
+        <!-- Bagian kanan end -->
       </div>
     </div>
   </div>
+  <!-- Navbar end -->
+
+  <!-- Bagian Hero -->
+  <div class="w-full bg-white py-20">
+    <div class="container mx-auto">
+      <div class="w-[90%] flex mx-auto">
+        <!-- Bgaian kiri -->
+        <div class="w-1/2">
+          <div class="mb-7">
+            <h1 class="font-extrabold text-6xl text-slate-800 uppercase">SMK <span class="text-blue-600">Negeri</span>
+              Cirebon </h1>
+          </div>
+          <div class="mb-10">
+            <p class="text-slate-500 font-normal leading-relaxed capitalize">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Quisquam assumenda fugit at illum consequatur voluptate deserunt praesentium facilis
+              fuga, reiciendis, dolorum fugiat ullam earum impedit nulla laborum similique, ipsa distinctio.</p>
+          </div>
+          <div class=" flex gap-2 mb-8">
+            <a href="" class="py-2 px-8 rounded-full bg-slate-600 text-white">Get Started</a>
+          </div>
+          <div class="flex">
+            <p>We are in social Media : </p>
+            <div class="flex space-x-3 items-center px-5">
+              <i class="fa-brands fa-instagram h-5 w-5"></i>
+              <i class="fa-brands fa-x-twitter h-5 w-5"></i>
+              <i class="fa-brands fa-linkedin h-5 w-5"></i>
+              <i class="fa-brands fa-youtube h-5 w-5"></i>
+            </div>
+          
+          </div>
+        </div>
+        <!-- Bagian kiri end -->
+        <!-- Bagian Kanan -->
+        <div class="w-1/2">
+          <div class="max-w-4xl flex justify-center">
+            <div class="w-72 h-[400px] rounded-xl overflow-hidden">
+              <img src="/image/heropoto.png" alt="" class="w-full h-full object-cover ">
+            </div>
+          </div>
+        </div>
+        <!-- Bagian Kanan end -->
+      </div>
+    </div>
+  </div>
+  <!-- Bagian Heron End -->
+
+
 
   <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
